@@ -1,0 +1,19 @@
+.product-cards--container{
+    /* Le ponemos display flex si queremos que el contenido se empiece acomodar y no genere un over flow ponemos flex wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
+    /* el contenedor está en un 100% y si la pantalla crece ya no va a crecer porque estamos en 930px */
+    width: 930px;
+    /* Para que se acomode solo cuando vaya creciendo */
+    margin: 0 auto;
+
+}
+.plans-container--slider{
+    /* Como estamos usando flex podemos usar esto para centrar */
+    justify-content: center;
+}
+.main-tables-container{
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+}
